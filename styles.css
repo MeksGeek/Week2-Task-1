@@ -59,3 +59,11 @@ table, th, td {
     width: 35%;
     padding: 2%;
 }
+
+.table_bottom {
+    border: none;
+    height: 2px;
+    width: 50%;
+    margin-top: 5%;
+    background: lightgray;
+}
