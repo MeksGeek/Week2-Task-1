@@ -49,7 +49,10 @@ table {
     margin: auto;
    
 }
-
+caption{
+    font-size: 32px;
+    margin-bottom: 2%;
+}
 tr {
     text-align: left;
 }
