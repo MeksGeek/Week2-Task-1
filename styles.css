@@ -1,15 +1,21 @@
-   @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@600&family=Itim&family=Manrope:wght@500&display=swap');
    
-   body { font-family: 'Itim', cursive;
+
+
+body { 
+    font-family: 'Itim', cursive;
+    font-weight: 400;
 }
 
 p {
     text-align: center;
 }
+
 img {
     display: block;
     margin: 0 auto;
 }
+
 h1, h2 {
     text-align: center;
 }
@@ -69,6 +75,78 @@ table, th, td {
     border: none;
     height: 2px;
     width: 50%;
-    margin-top: 5%;
+    margin-top: 4%;
     background: lightgray;
+    
 }
+
+form {
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Halant', serif;
+   
+}
+
+.form {
+    text-align: left;
+}
+
+input, select {
+    padding: 1%;
+    width: 40%;
+    border-radius: 4px;
+    border: 1px solid #828282;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+}
+
+.labell {
+    width: 35%;
+    display: inline-block;
+    margin-bottom: 24px;
+  
+}
+
+.radio1, .radio2 {
+    width: 2%;
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.radio1 {
+    margin-left: 190px;
+}
+
+.checkbox1, .checkbox2, .checkbox3 {
+    margin: 0;
+    width: 3%;
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.checkbox1 {
+    margin-left: 150px;
+}
+
+.radiolabel, .checkboxlabel {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+}
+
+.selectcol {
+    padding: 1%;
+    width: 42.2%;
+    border-radius: 4px;
+}
+
+.formbutton {
+    padding: 1%;
+    width: 42%;
+    border-radius: 4px;
+    background-color:  #155EEF;
+    border: none;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 600;
+}
+
